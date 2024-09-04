@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "aC80Y3UzeVhOA4k4T98dWRLETiio7lM/ZSX0t73b7/nz/6TE9BsleQIeyvdlkmKBnsRGClTeG4xTGoEGggvpWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Acer\\WebMaruim\\WebMaruim.Domain\\WebMaruim.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

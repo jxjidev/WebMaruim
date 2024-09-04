@@ -1,0 +1,44 @@
+﻿** Destaques
+     Tabelas que serão recriadas com os dados migrados
+       Nenhum
+     Índices clusterizados que serão removidos
+       Nenhum
+     Índices clusterizados que serão criados
+       Nenhum
+     Possíveis problemas de dados
+       Nenhum
+
+** Ações do usuário
+     Criar
+       [dbo].[Categoria] (Tabela)
+       [dbo].[CategoriaProduto] (Tabela)
+       [dbo].[Cliente] (Tabela)
+       [dbo].[Endereco] (Tabela)
+       [dbo].[ItemPedido] (Tabela)
+       [dbo].[Pagamento] (Tabela)
+       [dbo].[Pedido] (Tabela)
+       [dbo].[Produto] (Tabela)
+       [dbo].[StatusPedido] (Tabela)
+       [dbo].[Usuario] (Tabela)
+       Restrição Padrão: restrição sem nome em [dbo].[Cliente] (Restrição Padrão)
+       Restrição Padrão: restrição sem nome em [dbo].[Cliente] (Restrição Padrão)
+       Restrição Padrão: restrição sem nome em [dbo].[ItemPedido] (Restrição Padrão)
+       Restrição Padrão: restrição sem nome em [dbo].[Pagamento] (Restrição Padrão)
+       Restrição Padrão: restrição sem nome em [dbo].[Produto] (Restrição Padrão)
+       Restrição Padrão: restrição sem nome em [dbo].[Usuario] (Restrição Padrão)
+       Restrição Padrão: restrição sem nome em [dbo].[Usuario] (Restrição Padrão)
+       Chave Estrangeira: restrição sem nome em [dbo].[CategoriaProduto] (Chave Estrangeira)
+       Chave Estrangeira: restrição sem nome em [dbo].[CategoriaProduto] (Chave Estrangeira)
+       Chave Estrangeira: restrição sem nome em [dbo].[Endereco] (Chave Estrangeira)
+       Chave Estrangeira: restrição sem nome em [dbo].[ItemPedido] (Chave Estrangeira)
+       Chave Estrangeira: restrição sem nome em [dbo].[ItemPedido] (Chave Estrangeira)
+       Chave Estrangeira: restrição sem nome em [dbo].[Pagamento] (Chave Estrangeira)
+       Chave Estrangeira: restrição sem nome em [dbo].[Pedido] (Chave Estrangeira)
+       Chave Estrangeira: restrição sem nome em [dbo].[Pedido] (Chave Estrangeira)
+       Chave Estrangeira: restrição sem nome em [dbo].[Produto] (Chave Estrangeira)
+       Chave Estrangeira: restrição sem nome em [dbo].[Usuario] (Chave Estrangeira)
+       [dbo].[CK_Quantidade] (Restrição de Verificação)
+       [dbo].[CK_Preco] (Restrição de Verificação)
+       [dbo].[CK_Estoque] (Restrição de Verificação)
+
+** Ações de suporte

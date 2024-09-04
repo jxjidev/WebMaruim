@@ -1,0 +1,10 @@
+C:\Users\Acer\WebMaruim\WebMaruim.DataBase\bin\Debug\WebMaruim.DataBase.dacpac
+C:\Users\Acer\WebMaruim\WebMaruim.DataBase\bin\Debug\WebMaruim.DataBase.dll
+C:\Users\Acer\WebMaruim\WebMaruim.DataBase\bin\Debug\WebMaruim.DataBase.pdb
+C:\Users\Acer\WebMaruim\WebMaruim.DataBase\obj\Debug\WebMaruim.DataBase.sqlproj.AssemblyReference.cache
+C:\Users\Acer\WebMaruim\WebMaruim.DataBase\obj\Debug\Model.xml
+C:\Users\Acer\WebMaruim\WebMaruim.DataBase\obj\Debug\refactor.xml
+C:\Users\Acer\WebMaruim\WebMaruim.DataBase\obj\Debug\postdeploy.sql
+C:\Users\Acer\WebMaruim\WebMaruim.DataBase\obj\Debug\predeploy.sql
+C:\Users\Acer\WebMaruim\WebMaruim.DataBase\obj\Debug\WebMaruim.DataBase.dll
+C:\Users\Acer\WebMaruim\WebMaruim.DataBase\obj\Debug\WebMaruim.DataBase.pdb

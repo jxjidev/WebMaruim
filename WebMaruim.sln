@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WebMaruim.DataBase", "WebMaruim.DataBase\WebMaruim.DataBase.sqlproj", "{DF325F3C-B0A4-4D0C-9938-326941FFA07E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMaruim.API", "WebMaruim.API\WebMaruim.API.csproj", "{91BA3291-4C92-4699-AD96-9463C99C4807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMaruim.Domain", "WebMaruim.Domain\WebMaruim.Domain.csproj", "{AC55C65A-095C-4FDA-B9A6-88F140E1EA82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{DF325F3C-B0A4-4D0C-9938-326941FFA07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF325F3C-B0A4-4D0C-9938-326941FFA07E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DF325F3C-B0A4-4D0C-9938-326941FFA07E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{91BA3291-4C92-4699-AD96-9463C99C4807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BA3291-4C92-4699-AD96-9463C99C4807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BA3291-4C92-4699-AD96-9463C99C4807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BA3291-4C92-4699-AD96-9463C99C4807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC55C65A-095C-4FDA-B9A6-88F140E1EA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC55C65A-095C-4FDA-B9A6-88F140E1EA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC55C65A-095C-4FDA-B9A6-88F140E1EA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC55C65A-095C-4FDA-B9A6-88F140E1EA82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
