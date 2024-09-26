@@ -44,6 +44,9 @@ Desenvolvimento de uma plataforma web chamada Maruim para a venda de bebidas, co
 
 ![image](https://github.com/user-attachments/assets/6c7a8197-aa7c-49ed-a098-4fb549591a94)
 
+![image](https://github.com/user-attachments/assets/620706b6-70d6-4e43-b422-ee2dce54976f)
+
+
  
 
  
