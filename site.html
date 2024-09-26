@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Liquor Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem;
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .slider {
+            background-color: #ddd;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .product-card {
+            background-color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Maruin</div>
+        <input type="search" placeholder="Search...">
+        <div>
+            <a href="#account">Conta</a>
+            <a href="#cart">Carrinho</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#wines">Vinhos</a>
+        <a href="#spirits">Liquor</a>
+        <a href="#beers">Cerveja</a>
+        <a href="#liqueurs">Cachacinha</a>
+    </nav>
+
+    <main>
+        <div class="slider">Slider de Protudos Interessantes</div>
+
+        <h2>Produtos interessantes</h2>
+        <div class="product-grid">
+            <div class="product-card">Produto 1</div>
+            <div class="product-card">Produto 2</div>
+            <div class="product-card">Produto 3</div>
+            <div class="product-card">Produto 4</div>
+        </div>
+
+        <h2>Novos chegados</h2>
+        <div class="product-grid">
+            <div class="product-card">Novo Produto 1</div>
+            <div class="product-card">Novo Produto 2</div>
+            <div class="product-card">Novo Produto 3</div>
+            <div class="product-card">Novo Produto 4</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Maruin Liquor Store. All rights reserved.</p>
+        <div>Payment Icons</div>
+    </footer>
+</body>
+</html>
