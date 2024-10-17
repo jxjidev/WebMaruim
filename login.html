@@ -2,34 +2,101 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Maruim</title>
+    <title>Maruim Bebidas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="login-container">
-        <div class="login-box">
+    <!-- Cabeçalho com menu e barra de pesquisa -->
+    <header>
+        <div class="header-content">
             <div class="logo">
                 <img src="logo.png" alt="Logo Maruim"> <!-- Substitua pelo caminho da sua logo -->
             </div>
-            <h2>Entrar na sua conta</h2>
-            <form action="#" method="post">
-                <div class="input-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
-                </div>
-                <div class="input-group">
-                    <label for="password">Senha</label>
-                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
-                </div>
-                <button type="submit" class="login-button">Entrar</button>
-            </form>
-            <div class="extra-links">
-                <a href="#">Esqueceu sua senha?</a>
-                <a href="#">Criar uma conta</a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Categorias</a></li>
+                    <li class="dropdown">
+                        <a href="#">Bebidas 1</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Opção 1.1</a></li>
+                            <li><a href="#">Opção 1.2</a></li>
+                            <li><a href="#">Opção 1.3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Bebidas 2</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Opção 2.1</a></li>
+                            <li><a href="#">Opção 2.2</a></li>
+                            <li><a href="#">Opção 2.3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Bebidas 3</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Opção 3.1</a></li>
+                            <li><a href="#">Opção 3.2</a></li>
+                            <li><a href="#">Opção 3.3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Bebidas 4</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Opção 4.1</a></li>
+                            <li><a href="#">Opção 4.2</a></li>
+                            <li><a href="#">Opção 4.3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar...">
+                <button>Pesquisar</button>
+            </div>
+            <div class="user-cart">
+                <a href="#"><img src="user-icon.png" alt="User Icon"></a>
+                <a href="#"><img src="cart-icon.png" alt="Carrinho"></a>
             </div>
         </div>
-    </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section class="slide">
+            <h2>Loop Slide de Bebidas</h2>
+            <!-- Placeholder para loop de imagens -->
+            <div class="slide-images">
+                <!-- Imagens do slide aqui -->
+            </div>
+        </section>
+
+        <section class="destaques">
+            <h3>Destaques</h3>
+            <div class="grid">
+                <div class="item">Bebida 1</div>
+                <div class="item">Bebida 2</div>
+                <div class="item">Bebida 3</div>
+                <div class="item">Bebida 4</div>
+                <div class="item">Bebida 5</div>
+            </div>
+        </section>
+
+        <section class="novidades">
+            <h3>Novidades</h3>
+            <div class="grid">
+                <div class="item">Bebida 6</div>
+                <div class="item">Bebida 7</div>
+                <div class="item">Bebida 8</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Maruim Bebidas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
